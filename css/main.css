@@ -6,17 +6,25 @@
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    color: yellow;
+    text-align: center;
 }
-
+ /*contenitori*/
 
 .contenitore {
     
-       
+       position: relative;
         height: 800px; 
         margin: 0 auto;
         background-color:red;
-        
-}
+    }
+
+    img{
+        height: 500px;
+        width: 700px;
+    }
+   
+  
 
  .contenitore2{
    
@@ -30,4 +38,27 @@ body {
     height: 800px; 
     margin: 0 auto;
     background-color: yellow;
+}
+
+/*menu*/
+.navigazione {
+    padding: 10px ;
+   position: fixed;
+   right: 30px;
+ z-index: 3;
+}
+
+.navigazione li{
+   
+   display: inline-block;
+   text-decoration: none;
+}
+
+
+.navigazione {
+   margin: 15px 0;
+   text-decoration: none;
+}
+.contenitore3:last-child{
+    color:green
 }
