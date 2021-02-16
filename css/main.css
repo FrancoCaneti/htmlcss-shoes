@@ -36,16 +36,26 @@ body {
 
 /*menu*/
 .navigazione {
-    padding: 10px ;
-   position: fixed;
-   right: 30px;
- z-index: 3;
+  position: fixed;
+  right: 30px;
+  z-index: 3;
 }
 
 .navigazione li{
    
-   display: inline-block;
-   text-decoration: none;
+   list-style: none;
+   margin:15px
+}
+
+.navigazione ul li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    background: white;
+    border-radius: 50%;
 }
 
 
