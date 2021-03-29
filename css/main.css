@@ -17,21 +17,27 @@ body {
        position: relative;
         height: 800px; 
         margin: 0 auto;
-        background-color:red;
-}
+        background-color:#26c212;
+        color:rgb(212, 31, 31);
+    }
+    
+    
+
 
  .contenitore2{
    position: relative;
     height: 800px; 
     margin: 0 auto;
-    background-color:green;
+    background-color:#9e140a;
+    color:white;
 }
 
 .contenitore3{
    position: relative;
     height: 800px; 
     margin: 0 auto;
-    background-color: yellow;
+    background-color: #2196f3;
+    
 }
 
 /*menu*/
@@ -52,11 +58,10 @@ body {
     display: inline-block;
     width: 25px;
     height: 20px;
-  
     line-height: 20px;
     text-decoration: none;
-    background: rgb(5, 0, 0);
-    color: ivory;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 50%;
 }
 
@@ -64,8 +69,9 @@ body {
 .navigazione {
    margin: 15px 0;
    text-decoration: none;
+   
 }
 .contenitore3:last-child{
     font-size: 2em;
-    color:green
+    color:rgb(177, 31, 63);
 }
